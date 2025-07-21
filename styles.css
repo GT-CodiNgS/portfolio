@@ -2626,6 +2626,12 @@ textarea.form-control {
     }
 }
 
+@media (max-width: 395px) {
+  #home {
+    padding-top: 26px !important;
+  }
+}
+
 @media (max-width: 576px) {
     /* Further optimize for small screens */
     .hero-text h1 {
