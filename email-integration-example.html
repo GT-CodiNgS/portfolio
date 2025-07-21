@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Integration Example</title>
+  </head>
+  <body>
+    <h1>Email Integration Setup Guide</h1>
+
+    <h2>Step 1: EmailJS Setup</h2>
+    <p>To make your contact form functional, follow these steps:</p>
+
+    <ol>
+      <li>
+        Go to
+        <a href="https://www.emailjs.com/" target="_blank">EmailJS.com</a> and
+        create a free account
+      </li>
+      <li>Add your email service (Gmail, Outlook, etc.)</li>
+      <li>Create an email template</li>
+      <li>Get your Service ID, Template ID, and User ID</li>
+    </ol>
+
+    <h2>Step 2: Update Your HTML</h2>
+    <p>
+      Add these scripts to your <code>index.html</code> before the closing
+      <code>&lt;/body&gt;</code> tag:
+    </p>
+
+    <pre><code>&lt;!-- EmailJS SDK --&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    emailjs.init('YOUR_USER_ID_HERE');
+&lt;/script&gt;</code></pre>
+
+    <h2>Step 3: Update Your JavaScript</h2>
+    <p>
+      Replace the <code>sendEmail</code> function in your
+      <code>script.js</code> with:
+    </p>
+
+    <pre><code>function sendEmail(formData) {
+    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData)
+        .then(function(response) {
+            showNotification('Message sent successfully!', 'success');
+            contactForm.reset();
+        }, function(error) {
+            showNotification('Failed to send message. Please try again.', 'error');
+        });
+}</code></pre>
+
+    <h2>Step 4: Email Template Variables</h2>
+    <p>In your EmailJS template, use these variables:</p>
+    <ul>
+      <li><code>{{name}}</code> - Sender's name</li>
+      <li><code>{{email}}</code> - Sender's email</li>
+      <li><code>{{subject}}</code> - Message subject</li>
+      <li><code>{{message}}</code> - Message content</li>
+    </ul>
+
+    <h2>Alternative: Formspree</h2>
+    <p>For a simpler setup, you can use Formspree:</p>
+    <ol>
+      <li>
+        Go to <a href="https://formspree.io/" target="_blank">Formspree.io</a>
+      </li>
+      <li>Create a new form</li>
+      <li>Update your form tag in <code>index.html</code>:</li>
+    </ol>
+
+    <pre><code>&lt;form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contactForm"&gt;</code></pre>
+
+    <h2>Testing</h2>
+    <p>
+      After setup, test your contact form to ensure emails are being sent
+      correctly.
+    </p>
+
+    <p>
+      <strong>Note:</strong> The current version shows a success message for
+      demonstration. Replace with actual email integration for production use.
+    </p>
+  </body>
+</html>

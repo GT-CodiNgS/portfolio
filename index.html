@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gayas Thasmika - Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#home">GT</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          aria-label="Toggle navigation"
+          id="mobileMenuBtn"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="menu-close" id="menuCloseBtn" style="display: none">
+          &times;
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button
+                class="btn btn-outline-light btn-sm ms-2"
+                id="darkModeToggle"
+              >
+                <i class="fas fa-moon"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Gayas Thasmika</span></h1>
+                <h2>Senior Software Engineer</h2>
+                <p>
+                  Passionate about creating innovative digital solutions and
+                  turning ideas into reality through code.
+                </p>
+              </div>
+              <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                  <i class="fas fa-envelope"></i>
+                  Get In Touch
+                </a>
+                <a href="#projects" class="btn btn-secondary">
+                  <i class="fas fa-eye"></i>
+                  View Work
+                </a>
+                <div class="download-buttons">
+                  <a
+                    href="asserts/files/gayas thasmika's resume.pdf"
+                    class="btn btn-outline"
+                    download
+                  >
+                    <i class="fas fa-download"></i>
+                    Resume
+                  </a>
+                  <a
+                    href="asserts/files/gayas thasmika cover letter.pdf"
+                    class="btn btn-outline"
+                    download
+                  >
+                    <i class="fas fa-file-alt"></i>
+                    Cover Letter
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <img
+                src="asserts/img/profile photo.jpg"
+                alt="Gayas Thasmika"
+                class="profile-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-content">
+              <h3>Who I Am</h3>
+              <p>
+                I am a dedicated and passionate developer with a strong
+                foundation in modern web technologies. My journey in software
+                development has been driven by curiosity and a desire to create
+                meaningful solutions that make a difference.
+              </p>
+              <p>
+                With expertise in both frontend and backend development, I enjoy
+                the full spectrum of creating digital experiences - from
+                crafting beautiful user interfaces to building robust
+                server-side applications.
+              </p>
+              <div class="about-stats">
+                <div class="stat-item">
+                  <h4>4+</h4>
+                  <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                  <h4>20+</h4>
+                  <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                  <h4>3</h4>
+                  <p>Companies Worked</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-image">
+              <img
+                src="asserts/img/profile photo.jpg"
+                alt="About Me"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">
+              A comprehensive toolkit of technical skills and professional
+              expertise
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Programming Languages -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h4>Programming Languages</h4>
+              <p class="skill-subtitle">Core Development Skills</p>
+              <div class="skill-badges">
+                <span class="badge">JavaScript</span>
+                <span class="badge">TypeScript</span>
+                <span class="badge">Python</span>
+                <span class="badge">Java</span>
+                <span class="badge">C#</span>
+                <span class="badge">PHP</span>
+              </div>
+              <ul class="skill-list">
+                <li>Advanced JavaScript/TypeScript development</li>
+                <li>Object-oriented programming principles</li>
+                <li>Functional programming concepts</li>
+                <li>Code optimization and performance tuning</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Frontend Development -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-palette"></i>
+              </div>
+              <h4>Frontend Development</h4>
+              <p class="skill-subtitle">User Interface & Experience</p>
+              <div class="skill-badges">
+                <span class="badge">React</span>
+                <span class="badge">Angular</span>
+                <span class="badge">Vue.js</span>
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS3</span>
+                <span class="badge">SASS</span>
+              </div>
+              <ul class="skill-list">
+                <li>Modern React ecosystem (Hooks, Context, Redux)</li>
+                <li>Responsive design and mobile-first approach</li>
+                <li>Progressive Web Applications (PWA)</li>
+                <li>Cross-browser compatibility</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Backend Development -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              <h4>Backend Development</h4>
+              <p class="skill-subtitle">Server-Side & APIs</p>
+              <div class="skill-badges">
+                <span class="badge">Node.js</span>
+                <span class="badge">Express.js</span>
+                <span class="badge">ASP.NET</span>
+                <span class="badge">Django</span>
+                <span class="badge">REST APIs</span>
+                <span class="badge">GraphQL</span>
+              </div>
+              <ul class="skill-list">
+                <li>RESTful API design and development</li>
+                <li>Microservices architecture</li>
+                <li>Authentication and authorization</li>
+                <li>API documentation and testing</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Database & Cloud -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h4>Database & Cloud</h4>
+              <p class="skill-subtitle">Data Management & Infrastructure</p>
+              <div class="skill-badges">
+                <span class="badge">MongoDB</span>
+                <span class="badge">MySQL</span>
+                <span class="badge">PostgreSQL</span>
+                <span class="badge">AWS</span>
+                <span class="badge">Azure</span>
+                <span class="badge">Docker</span>
+              </div>
+              <ul class="skill-list">
+                <li>NoSQL and relational database design</li>
+                <li>Cloud deployment and management</li>
+                <li>Containerization with Docker</li>
+                <li>Database optimization and scaling</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- DevOps & Tools -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h4>DevOps & Tools</h4>
+              <p class="skill-subtitle">Development Operations</p>
+              <div class="skill-badges">
+                <span class="badge">Git</span>
+                <span class="badge">GitHub</span>
+                <span class="badge">CI/CD</span>
+                <span class="badge">Jenkins</span>
+                <span class="badge">Linux</span>
+                <span class="badge">Shell</span>
+              </div>
+              <ul class="skill-list">
+                <li>Version control and collaborative development</li>
+                <li>Continuous integration and deployment</li>
+                <li>Automated testing and quality assurance</li>
+                <li>System administration and scripting</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h4>Soft Skills</h4>
+              <p class="skill-subtitle">Professional Excellence</p>
+              <div class="skill-badges">
+                <span class="badge">Leadership</span>
+                <span class="badge">Communication</span>
+                <span class="badge">Problem Solving</span>
+                <span class="badge">Teamwork</span>
+                <span class="badge">Agile</span>
+                <span class="badge">Mentoring</span>
+              </div>
+              <ul class="skill-list">
+                <li>Technical leadership and project management</li>
+                <li>Cross-functional team collaboration</li>
+                <li>Client communication and requirements gathering</li>
+                <li>Mentoring junior developers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="section-title text-center mb-5">Technologies & Tools</h3>
+            <div class="technologies-scroll">
+              <div class="technologies-container">
+                <!-- Frontend Technologies -->
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    alt="HTML5"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    alt="CSS3"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="JavaScript"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    alt="React"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                    alt="Bootstrap"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                    alt="Vue.js"
+                  />
+                </div>
+
+                <!-- Backend Technologies -->
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    alt="Node.js"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    alt="Express.js"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                    alt="Python"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+                    alt="Django"
+                  />
+                </div>
+
+                <!-- Database Technologies -->
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    alt="MongoDB"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                    alt="MySQL"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                    alt="PostgreSQL"
+                  />
+                </div>
+
+                <!-- DevOps & Tools -->
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    alt="Git"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                    alt="Docker"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+                    alt="AWS"
+                  />
+                </div>
+
+                <!-- Mobile Development -->
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    alt="React Native"
+                  />
+                </div>
+
+                <!-- Design Tools -->
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                    alt="Figma"
+                  />
+                </div>
+
+                <!-- Duplicate for seamless scrolling -->
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    alt="HTML5"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    alt="CSS3"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="JavaScript"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    alt="React"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                    alt="Bootstrap"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                    alt="Vue.js"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    alt="Node.js"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    alt="Express.js"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                    alt="Python"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+                    alt="Django"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    alt="MongoDB"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                    alt="MySQL"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                    alt="PostgreSQL"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    alt="Git"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                    alt="Docker"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+                    alt="AWS"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    alt="React Native"
+                  />
+                </div>
+                <div class="tech-logo">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                    alt="Figma"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="section-divider"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div class="experience-card">
+              <div class="experience-header">
+                <div class="company-logo">
+                  <i class="fas fa-building"></i>
+                </div>
+                <div class="company-info">
+                  <h4>Senior Software Engineer (Full-Stack)</h4>
+                  <h5>OSOS Technologies</h5>
+                  <p class="duration">May 2023 - Present</p>
+                  <p class="location">Oman</p>
+                </div>
+              </div>
+              <div class="experience-content">
+                <p>
+                  Technical leadership role mentoring junior engineers and
+                  interns, optimizing development workflows. Acted as Scrum
+                  Master facilitating daily stand-ups and spearheaded
+                  refactoring to monolithic and Clean Architecture.
+                </p>
+                <div class="tech-used">
+                  <span class="tech-tag">.NET Core</span>
+                  <span class="tech-tag">Angular</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Blazor</span>
+                  <span class="tech-tag">Azure</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="experience-card">
+              <div class="experience-header">
+                <div class="company-logo">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="company-info">
+                  <h4>Software Engineer (Full-Stack)</h4>
+                  <h5>OSOS Technologies</h5>
+                  <p class="duration">Jun 2023 - May 2023</p>
+                  <p class="location">Oman</p>
+                </div>
+              </div>
+              <div class="experience-content">
+                <p>
+                  Developed backend APIs in .NET Core with unit tests using
+                  XUnit. Refactored API project to Clean Architecture following
+                  'The Standard' architecture. Developed client applications
+                  using Angular 18 and Blazor.
+                </p>
+                <div class="tech-used">
+                  <span class="tech-tag">.NET Core</span>
+                  <span class="tech-tag">Angular 18</span>
+                  <span class="tech-tag">Blazor</span>
+                  <span class="tech-tag">XUnit</span>
+                  <span class="tech-tag">Entity Framework</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="experience-card">
+              <div class="experience-header">
+                <div class="company-logo">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="company-info">
+                  <h4>Associate Software Engineer (Full-Stack)</h4>
+                  <h5>Platform One Software Ltd</h5>
+                  <p class="duration">April 2022 - June 2023</p>
+                  <p class="location">Australia</p>
+                </div>
+              </div>
+              <div class="experience-content">
+                <p>
+                  Developed data migration tools using .NET framework and
+                  handled product feature development. Managed weekly UAT and
+                  production releases, conducted server log verification
+                  processes, and collaborated on microservices development.
+                </p>
+                <div class="tech-used">
+                  <span class="tech-tag">ASP.NET</span>
+                  <span class="tech-tag">C#</span>
+                  <span class="tech-tag">VueJS</span>
+                  <span class="tech-tag">MSSQL</span>
+                  <span class="tech-tag">Docker</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="experience-card">
+              <div class="experience-header">
+                <div class="company-logo">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="company-info">
+                  <h4>Intern Software Engineer (Full-Stack)</h4>
+                  <h5>Seekers Cloud (Pvt) Ltd</h5>
+                  <p class="duration">August 2021 - March 2022</p>
+                  <p class="location">Panadura, Sri Lanka</p>
+                </div>
+              </div>
+              <div class="experience-content">
+                <p>
+                  Assisted in designing and implementing backend APIs for
+                  seamless data management. Collaborated with teams on bug
+                  fixes, code reviews, and feature enhancements. Participated in
+                  testing and debugging to ensure application performance.
+                </p>
+                <div class="tech-used">
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">Spring Boot</span>
+                  <span class="tech-tag">ReactJS</span>
+                  <span class="tech-tag">React Native</span>
+                  <span class="tech-tag">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title">Education</h2>
+            <div class="section-divider"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div class="education-card">
+              <div class="education-header">
+                <div class="education-icon">
+                  <i class="fas fa-university"></i>
+                </div>
+                <div class="education-info">
+                  <h4>BSc (Hons) in Software Engineering</h4>
+                  <h5>Cardiff Metropolitan University</h5>
+                  <p class="duration">2022 - 2023</p>
+                  <p class="location">UK</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="education-card">
+              <div class="education-header">
+                <div class="education-icon">
+                  <i class="fas fa-certificate"></i>
+                </div>
+                <div class="education-info">
+                  <h4>HND in Software Engineering</h4>
+                  <h5>Institute of Software Engineering</h5>
+                  <p class="duration">2020 - 2022</p>
+                  <p class="location">Sri Lanka</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="education-card">
+              <div class="education-header">
+                <div class="education-icon">
+                  <i class="fas fa-cog"></i>
+                </div>
+                <div class="education-info">
+                  <h4>Mechatronic Engineering Basic</h4>
+                  <h5>German Technical Training Institute</h5>
+                  <p class="duration">2016</p>
+                  <p class="location">Sri Lanka</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="education-card">
+              <div class="education-header">
+                <div class="education-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-info">
+                  <h4>G C E Advanced Level Examination</h4>
+                  <h5>G/Christ Church Boys College</h5>
+                  <p class="duration">2016</p>
+                  <p class="location">Sri Lanka</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title">Achievements</h2>
+            <div class="section-divider"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <div class="achievement-content">
+                <div class="achievement-badge">🏆 Award Winner</div>
+                <h4>Award-Winning Performance</h4>
+                <p>
+                  Recognized as "Best Performed Employee" for delivering
+                  high-impact solutions and leading critical projects at OSOS
+                  Technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="section-divider"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=400&h=250&fit=crop&crop=center"
+                  alt="Eldercare Application"
+                />
+              </div>
+              <div class="project-content">
+                <h4>Eldercare Application</h4>
+                <p>
+                  A comprehensive web application for searching and posting
+                  care-giving services. Features JWT authentication and email
+                  verification for enhanced security.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">.NET Core</span>
+                  <span class="tech-tag">Angular</span>
+                  <span class="tech-tag">JWT</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Tailwind</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                  <a
+                    href="https://github.com/GT-CodingS"
+                    class="btn btn-sm btn-outline-primary"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=250&fit=crop&crop=center"
+                  alt="BBQ World POS System"
+                />
+              </div>
+              <div class="project-content">
+                <h4>BBQ World POS System</h4>
+                <p>
+                  A complete Point of Sale web application for managing
+                  customers, items, and orders. Built with modern JavaScript,
+                  CSS, and Bootstrap for optimal user experience.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Bootstrap</span>
+                  <span class="tech-tag">jQuery</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                  <a
+                    href="https://github.com/GT-CodingS"
+                    class="btn btn-sm btn-outline-primary"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=400&h=250&fit=crop&crop=center"
+                  alt="Farefinder API"
+                />
+              </div>
+              <div class="project-content">
+                <h4>Farefinder (NodeJS Back-end)</h4>
+                <p>
+                  A comprehensive airline search system API that searches
+                  airlines worldwide and redirects to ticket-booking sites.
+                  Features multiple endpoints for various business logic.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">NodeJS</span>
+                  <span class="tech-tag">JWT</span>
+                  <span class="tech-tag">Ajax</span>
+                  <span class="tech-tag">REST API</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                  <a
+                    href="https://github.com/GT-CodingS"
+                    class="btn btn-sm btn-outline-primary"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-12 text-center">
+            <p class="text-muted">
+              Check out more projects on my GitHub profile
+            </p>
+            <a
+              href="https://github.com/GT-CodingS"
+              class="btn btn-outline-primary"
+              target="_blank"
+            >
+              <i class="fab fa-github me-2"></i>View More Projects
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mb-5">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">
+              Ready to start a conversation? Let's discuss your next project or
+              opportunity!
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Contact Information -->
+          <div class="col-lg-5 mb-5">
+            <div class="contact-info">
+              <h3>Let's Connect</h3>
+              <p>
+                I'm always interested in new opportunities and exciting
+                projects. Feel free to reach out through any of the channels
+                below!
+              </p>
+
+              <div class="contact-methods">
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <div>
+                    <h5>Email</h5>
+                    <p>gayas.thasmika@example.com</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <div>
+                    <h5>Phone</h5>
+                    <p>+1 (555) 123-4567</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <h5>Location</h5>
+                    <p>Colombo, Sri Lanka</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <i class="fas fa-clock"></i>
+                  <div>
+                    <h5>Available</h5>
+                    <p>Mon - Fri, 9:00 AM - 6:00 PM</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a href="#" class="social-link" title="LinkedIn">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://github.com/GT-CodingS"
+                  class="social-link"
+                  title="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link" title="Twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link" title="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <h4 class="form-title">Send Me a Message</h4>
+              <p class="form-subtitle">I'll get back to you within 24 hours</p>
+
+              <form id="contactForm">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                      <label for="name" class="form-label">Full Name *</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                      <label for="email" class="form-label"
+                        >Email Address *</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email address"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <div class="form-group">
+                    <label for="subject" class="form-label">Subject *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="subject"
+                      name="subject"
+                      placeholder="What's this about?"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <div class="form-group">
+                    <label for="message" class="form-label">Message *</label>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="message"
+                      rows="5"
+                      placeholder="Tell me about your project or opportunity..."
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                  </button>
+                  <button type="reset" class="btn btn-outline">
+                    <i class="fas fa-undo"></i>
+                    Clear Form
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h4>Gayas Thasmika</h4>
+            <p>
+              Senior Software Engineer passionate about creating innovative
+              digital solutions. Let's connect and build something amazing
+              together!
+            </p>
+            <div class="footer-social">
+              <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/GT-CodingS" title="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 Gayas Thasmika. Made with
+            <span class="heart">❤</span> and lots of coffee. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <script>
+      // Mobile menu overlay logic
+      const navbar = document.getElementById("navbar");
+      const menuBtn = document.getElementById("mobileMenuBtn");
+      const closeBtn = document.getElementById("menuCloseBtn");
+      const navbarCollapse = document.getElementById("navbarNav");
+
+      function openMenu() {
+        navbar.classList.add("show-menu");
+        closeBtn.style.display = "block";
+        menuBtn.style.display = "none";
+      }
+      function closeMenu() {
+        navbar.classList.remove("show-menu");
+        closeBtn.style.display = "none";
+        menuBtn.style.display = "block";
+      }
+      menuBtn.addEventListener("click", openMenu);
+      closeBtn.addEventListener("click", closeMenu);
+      // Close menu when a nav link is clicked (mobile only)
+      document.querySelectorAll(".navbar-nav .nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          if (window.innerWidth <= 768) closeMenu();
+        });
+      });
+    </script>
+  </body>
+</html>
